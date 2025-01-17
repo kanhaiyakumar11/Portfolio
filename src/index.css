@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .main{
+    background-color: green;
+    padding: 10px;
+    box-shadow: 0 0;
+} */
+body{
+    font-family:'Poppins' , sans-serif;
+    /* background-color:pink; */
+}
+
+.user-image {
+    /* padding: 2.5rem; */
+    /* filter: grayscale(1); */
+    transition: all 1s;
+    animation: scaleImage 5s linear infinite;
+    border-radius: 50%;
+    /* background:white */
+    /* overflow: hidden; */
+
+  }
+  .user-image img {
+    /* object-fit: cover; */
+    /* border: none;
+    border-radius: 50%;
+    z-index: -9;
+    margin-left: 130px;
+    margin-top: 50px; */
+  }
+  /* .image img{
+     margin: auto;
+  } */
